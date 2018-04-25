@@ -8,11 +8,11 @@
 
 ##### In Body Section:
 
-**Select Country Dropdown**
+##### Select Country Dropdown
 `<select onchange="print_state('state',this.selectedIndex);" id="country" name ="country"></select>`
 
-**Select City/State Dropdown**
+##### Select City/State Dropdown
 `<select name ="state" id ="state"></select>`
 
-**Initialize Library Script**
+##### Initialize Library Script
 `<script language="javascript">print_country("country");</script>`
