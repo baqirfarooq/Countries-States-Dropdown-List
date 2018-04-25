@@ -14,5 +14,5 @@
 **Select City/State Dropdown**
 `<select name ="state" id ="state"></select>`
 
-**Initialize Countries.js Script**
+**Initialize Library Script**
 `<script language="javascript">print_country("country");</script>`
