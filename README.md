@@ -8,7 +8,7 @@
 
 ##### In Body Section:
 
-**Select Country Dropdown**  
+**Select Country Dropdown**
 `<select onchange="print_state('state',this.selectedIndex);" id="country" name ="country"></select>`
 
 **Select City/State Dropdown**
