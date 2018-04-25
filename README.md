@@ -1,7 +1,7 @@
 # Country & State Dropdown List JavaScript library
 ###### A JavaScript library to create country &amp; state dropdown lists containing all the country names and state names.
 
-##### How to Use:
+## How to Use:
 
 ##### In Head/Footer section:
 `<script type= "text/javascript" src = "countries.js"></script>`
