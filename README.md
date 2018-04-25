@@ -15,4 +15,4 @@
 `<select name ="state" id ="state"></select>`
 
 **Initialize Countries.js Script**
-`<script language="javascript">print_country("country");</script>
+`<script language="javascript">print_country("country");</script>`
