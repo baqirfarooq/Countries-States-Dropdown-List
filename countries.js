@@ -297,3 +297,38 @@ function print_state(state_id, state_index){
 		option_str.options[option_str.length] = new Option(state_arr[i],state_arr[i]);
 	}
 }
+
+
+//jQuery Nice Select == Support 
+function print_country_for_JQueryNice(country_id) {
+    var option_str = $('#' + country_id);
+    var ul = option_str.next('.nice-select').find('.list');
+
+    option_str.empty();
+    option_str.append($('<option>').val('').text('Select Country'));
+
+    ul.empty();
+
+    for (var i = 0; i < country_arr.length; i++) {
+        option_str.append($('<option>').val(country_arr[i]).text(country_arr[i]));
+        var li = $('<li>').attr('data-value', country_arr[i]).addClass('option').text(country_arr[i]);
+        ul.append(li);
+    }
+
+    option_str.niceSelect('update');
+}
+
+
+function print_state_for_JQueryNice(state_id, state_index) {
+    var option_str = $('#' + state_id);
+    option_str.empty();
+    option_str.append($('<option>').val('').text('Select State'));
+
+    var state_arr = s_a[state_index].split("|");
+
+    for (var i = 0; i < state_arr.length; i++) {
+        option_str.append($('<option>').val(state_arr[i]).text(state_arr[i]));
+    }
+
+    option_str.niceSelect('update');
+}
